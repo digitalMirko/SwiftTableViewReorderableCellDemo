@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		AC5379B62314E77800B3F044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5379B52314E77800B3F044 /* AppDelegate.swift */; };
-		AC5379B82314E77800B3F044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5379B72314E77800B3F044 /* ViewController.swift */; };
 		AC5379BB2314E77800B3F044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5379B92314E77800B3F044 /* Main.storyboard */; };
 		AC5379BD2314E77A00B3F044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5379BC2314E77A00B3F044 /* Assets.xcassets */; };
 		AC5379C02314E77A00B3F044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5379BE2314E77A00B3F044 /* LaunchScreen.storyboard */; };
+		ACD443B02318CD4A00574BC2 /* ReorderableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD443AF2318CD4A00574BC2 /* ReorderableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC5379B22314E77800B3F044 /* Table View Reorderable Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View Reorderable Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5379B52314E77800B3F044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC5379B72314E77800B3F044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC5379BA2314E77800B3F044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC5379BC2314E77A00B3F044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC5379BF2314E77A00B3F044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC5379C12314E77A00B3F044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD443AF2318CD4A00574BC2 /* ReorderableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				AC5379B52314E77800B3F044 /* AppDelegate.swift */,
-				AC5379B72314E77800B3F044 /* ViewController.swift */,
 				AC5379B92314E77800B3F044 /* Main.storyboard */,
 				AC5379BC2314E77A00B3F044 /* Assets.xcassets */,
 				AC5379BE2314E77A00B3F044 /* LaunchScreen.storyboard */,
 				AC5379C12314E77A00B3F044 /* Info.plist */,
+				ACD443AF2318CD4A00574BC2 /* ReorderableTableViewController.swift */,
 			);
 			path = "Table View Reorderable Cell";
 			sourceTree = "<group>";
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC5379B82314E77800B3F044 /* ViewController.swift in Sources */,
 				AC5379B62314E77800B3F044 /* AppDelegate.swift in Sources */,
+				ACD443B02318CD4A00574BC2 /* ReorderableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
