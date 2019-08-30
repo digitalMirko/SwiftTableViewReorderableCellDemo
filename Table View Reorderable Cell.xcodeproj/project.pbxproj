@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				AC5379B52314E77800B3F044 /* AppDelegate.swift */,
+				ACD443AF2318CD4A00574BC2 /* ReorderableTableViewController.swift */,
 				AC5379B92314E77800B3F044 /* Main.storyboard */,
 				AC5379BC2314E77A00B3F044 /* Assets.xcassets */,
 				AC5379BE2314E77A00B3F044 /* LaunchScreen.storyboard */,
 				AC5379C12314E77A00B3F044 /* Info.plist */,
-				ACD443AF2318CD4A00574BC2 /* ReorderableTableViewController.swift */,
 			);
 			path = "Table View Reorderable Cell";
 			sourceTree = "<group>";
