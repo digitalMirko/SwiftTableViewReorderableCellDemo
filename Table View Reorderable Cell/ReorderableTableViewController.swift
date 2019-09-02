@@ -44,6 +44,11 @@ class ReorderableTableViewController: UITableViewController {
         HeadLine(id: 21, title: "White", text: "RBG: 255, 255, 255", image: "21White"),
         HeadLine(id: 22, title: "Black", text: "RBG: 0, 0 , 0", image: "22Black")
     ]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.tableView.isEditing = true
+    }
 
     // MARK: - Table view data source
 
@@ -70,6 +75,20 @@ class ReorderableTableViewController: UITableViewController {
         cell.imageView?.image = UIImage(named: headline.image)
 
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .none
+    }
+    
+    override func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
+        return false
+    }
+    
+    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let movedObject = self.headlines[sourceIndexPath.row]
+        headlines.remove(at: sourceIndexPath.row)
+        headlines.insert(movedObject, at: destinationIndexPath.row)
     }
     
 }
